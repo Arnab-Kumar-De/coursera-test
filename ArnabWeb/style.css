@@ -1,0 +1,35 @@
+.t
+{
+	text-align: center;
+	font-weight: bold;
+}
+section
+{
+	border: 1px solid black;
+	background-color: grey;
+	padding:5px;
+	margin:10px;
+}
+h1
+{
+	text-align: center;
+	font-weight: bold;
+}
+header
+{
+	background-color: grey;
+}
+li>a
+{
+	text-align: center;
+	border: 2px solid black;
+	margin-bottom: 2px;
+}
+@media(min-width: 1201px)
+{
+	.col-xl-12
+	{
+		float:left;
+		width: 100%;
+	}
+}
